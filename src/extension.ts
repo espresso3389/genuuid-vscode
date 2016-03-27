@@ -1,4 +1,4 @@
-// genuuid - Generate GUID/UUID
+// genuuid - Generate UUID
 // (C) 2016 Takashi Kawasaki (@espresso3389)
 'use strict';
 import * as vscode from 'vscode';
