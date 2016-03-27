@@ -1,0 +1,42 @@
+{
+    "name": "genrandom",
+    "displayName": "genrandom",
+    "description": "Generate Random Bytes",
+    "version": "0.0.1",
+    "publisher": "espresso3389",
+    "engines": {
+        "vscode": "^0.10.10"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:genrandom.generateRandomBytesBase64",
+        "onCommand:genrandom.generateRandomBytesHex",
+        "onCommand:genrandom.generateRandomBytesCsvHex"
+    ],
+    "main": "./out/src/extension",
+    "contributes": {
+        "commands": [{
+            "command": "genrandom.generateRandomBytesBase64",
+            "title": "Generate Random Bytes (BASE64)"
+        },
+        {
+            "command": "genrandom.generateRandomBytesHex",
+            "title": "Generate Random Bytes (HEX)"
+        },
+        {
+            "command": "genrandom.generateRandomBytesCsvHex",
+            "title": "Generate Random Bytes (HEX, Comma-Separated)"
+        }]
+    },
+    "scripts": {
+        "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+        "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install"
+    },
+    "devDependencies": {
+        "typescript": "^1.8.5",
+        "vscode": "^0.11.0"
+    }
+}
