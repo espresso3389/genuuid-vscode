@@ -1,7 +1,7 @@
 {
-    "name": "genrandom",
-    "displayName": "genrandom",
-    "description": "Generate Random Bytes",
+    "name": "genuuid",
+    "displayName": "genuuid",
+    "description": "Generate UUID",
     "version": "0.0.1",
     "publisher": "espresso3389",
     "engines": {
@@ -11,23 +11,13 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:genrandom.generateRandomBytesBase64",
-        "onCommand:genrandom.generateRandomBytesHex",
-        "onCommand:genrandom.generateRandomBytesCsvHex"
+        "onCommand:genuuid.generateUUID"
     ],
     "main": "./out/src/extension",
     "contributes": {
         "commands": [{
-            "command": "genrandom.generateRandomBytesBase64",
-            "title": "Generate Random Bytes (BASE64)"
-        },
-        {
-            "command": "genrandom.generateRandomBytesHex",
-            "title": "Generate Random Bytes (HEX)"
-        },
-        {
-            "command": "genrandom.generateRandomBytesCsvHex",
-            "title": "Generate Random Bytes (HEX, Comma-Separated)"
+            "command": "genuuid.generateUUID",
+            "title": "Generate UUID"
         }]
     },
     "scripts": {
@@ -37,6 +27,8 @@
     },
     "devDependencies": {
         "typescript": "^1.8.5",
-        "vscode": "^0.11.0"
+        "typings": "^0.7.9",
+        "vscode": "^0.11.0",
+        "node-uuid": "^1.4.1"
     }
 }
