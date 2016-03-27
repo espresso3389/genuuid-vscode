@@ -2,7 +2,7 @@
     "name": "genuuid",
     "displayName": "genuuid",
     "description": "Generate UUID",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "espresso3389",
     "engines": {
         "vscode": "^0.10.10"
@@ -16,9 +16,9 @@
     "main": "./out/src/extension",
     "contributes": {
         "commands": [{
-            "command": "genuuid.generateUUID",
-            "title": "Generate UUID"
-        }]
+                "command": "genuuid.generateUUID",
+                "title": "Generate UUID"
+            }]
     },
     "scripts": {
         "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
@@ -28,7 +28,9 @@
     "devDependencies": {
         "typescript": "^1.8.5",
         "typings": "^0.7.9",
-        "vscode": "^0.11.0",
+        "vscode": "^0.11.0"
+    },
+    "dependencies": {
         "node-uuid": "^1.4.1"
     }
 }
