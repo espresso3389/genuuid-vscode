@@ -2,7 +2,7 @@
 // (C) 2016 Takashi Kawasaki (@espresso3389)
 'use strict';
 import * as vscode from 'vscode';
-import * as uuid from 'node-uuid';
+let uuid = require('node-uuid');
 
 function registerGenerator(context: vscode.ExtensionContext, name: string, random: () => string) {
     let disposable = vscode.commands.registerCommand(name, () => {
