@@ -2,9 +2,9 @@
     "name": "genuuid",
     "displayName": "genuuid",
     "description": "Generate UUID",
-    "version": "0.2.0",
+    "version": "0.3.2",
     "publisher": "espresso3389",
-    "icon": "images/uuid.png",
+    "icon": "uuid.png",
     "license": "SEE LICENSE IN LICENSE.md",
     "bugs": {
         "url": "https://github.com/espresso3389/genuuid-vscode/issues"
@@ -27,7 +27,7 @@
     "activationEvents": [
         "onCommand:genuuid.generateUUID"
     ],
-    "main": "./out/extension",
+    "main": "./out/src/extension",
     "contributes": {
         "commands": [
             {
