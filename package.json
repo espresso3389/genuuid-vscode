@@ -2,19 +2,27 @@
     "name": "genuuid",
     "displayName": "genuuid",
     "description": "Generate UUID",
-    "version": "0.2.0",
+    "version": "0.5.0",
     "publisher": "espresso3389",
     "icon": "images/uuid.png",
-    "repository": {
-        "type" : "git",
-        "url" : "https://github.com/espresso3389/genuuid-vscode.git"
+    "license": "SEE LICENSE IN LICENSE.md",
+    "bugs": {
+        "url": "https://github.com/espresso3389/genuuid-vscode/issues"
     },
-    "engines": {
-        "vscode": "^0.10.10"
+    "homepage": "https://github.com/espresso3389/genuuid-vscode",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/espresso3389/genuuid-vscode.git"
     },
     "categories": [
         "Other"
     ],
+    "keywords": [
+        "GUID", "UUID"
+    ],
+    "engines": {
+        "vscode": "^0.10.10"
+    },
     "activationEvents": [
         "onCommand:genuuid.generateUUID"
     ],
