@@ -2,7 +2,7 @@
     "name": "genuuid",
     "displayName": "genuuid",
     "description": "Generate UUID",
-    "version": "0.5.0",
+    "version": "0.2.0",
     "publisher": "espresso3389",
     "icon": "images/uuid.png",
     "license": "SEE LICENSE IN LICENSE.md",
@@ -18,7 +18,8 @@
         "Other"
     ],
     "keywords": [
-        "GUID", "UUID"
+        "GUID",
+        "UUID"
     ],
     "engines": {
         "vscode": "^0.10.10"
@@ -26,7 +27,7 @@
     "activationEvents": [
         "onCommand:genuuid.generateUUID"
     ],
-    "main": "./out/src/extension",
+    "main": "./out/extension",
     "contributes": {
         "commands": [
             {
