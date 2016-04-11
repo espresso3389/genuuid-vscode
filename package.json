@@ -4,6 +4,11 @@
     "description": "Generate UUID",
     "version": "0.2.0",
     "publisher": "espresso3389",
+    "icon": "images/uuid.png",
+    "repository": {
+        "type" : "git",
+        "url" : "https://github.com/espresso3389/genuuid-vscode.git"
+    },
     "engines": {
         "vscode": "^0.10.10"
     },
