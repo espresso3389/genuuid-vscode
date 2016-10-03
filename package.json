@@ -19,7 +19,8 @@
     ],
     "keywords": [
         "GUID",
-        "UUID"
+        "UUID",
+        "multiple carets"
     ],
     "engines": {
         "vscode": "^0.10.10"

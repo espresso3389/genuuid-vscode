@@ -1,6 +1,6 @@
 # genuuid - Generate UUID
 
-This is a Visual Studio Code extension, which generates UUIDs and insert them on the current caret positions.
+This is a Visual Studio Code extension, which generates multiple GUID/UUIDs and insert them on the current caret positions (supporting multiple carets!).
 
 ## github URL
 https://github.com/espresso3389/genuuid-vscode
