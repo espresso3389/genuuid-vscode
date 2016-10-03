@@ -12,4 +12,4 @@ https://marketplace.visualstudio.com/items?itemName=espresso3389.genuuid
 
 For WiX hand-writers, the extension provides very efficient way to insert many GUIDs at once if used with multiple-cursor feature.
 
-![](images/intro.gif)
+![](https://raw.githubusercontent.com/espresso3389/genuuid-vscode/master/images/intro.gif)
