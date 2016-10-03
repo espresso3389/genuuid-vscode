@@ -2,7 +2,7 @@
     "name": "genuuid",
     "displayName": "genuuid",
     "description": "Generate UUID",
-    "version": "0.3.2",
+    "version": "0.3.3",
     "publisher": "espresso3389",
     "icon": "uuid.png",
     "license": "SEE LICENSE IN LICENSE.md",
